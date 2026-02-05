@@ -26,3 +26,7 @@ npm-debug.log*
 # Environment variables
 .env
 .env.local
+
+# Claude AI Files (development only)
+.claude/
+DEPLOY_INSTRUCTIONS.md
