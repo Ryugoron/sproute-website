@@ -142,6 +142,23 @@ body {
     color: var(--white);
 }
 
+.nav-link.lang-switch {
+    padding: 0.4rem 0.8rem;
+    border: 1px solid rgba(139, 157, 131, 0.3);
+    border-radius: 2px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.nav-link.lang-switch::after {
+    display: none;
+}
+
+.nav-link.lang-switch:hover {
+    background-color: rgba(139, 157, 131, 0.1);
+    border-color: var(--accent-green);
+}
+
 .mobile-menu-btn {
     display: none;
     flex-direction: column;
