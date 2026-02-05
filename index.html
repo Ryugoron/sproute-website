@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprouté | Elegant Jewelry That Grows With You</title>
+    <meta name="description" content="Sprouté - Where elegance meets organic beauty. Premium jewelry connecting discerning clients with exceptional craftsmanship">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <span class="logo-icon">◆</span>
+                    <span class="logo-text">SPROUTÉ</span>
+                </div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#gallery" class="nav-link">Collection</a></li>
+                    <li><a href="#contact" class="nav-link contact-btn">Connect</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">Timeless Elegance</span>
+                    <span class="title-line">Naturally Inspired</span>
+                </h1>
+                <p class="hero-subtitle">Where beauty grows from craftsmanship and every piece tells a story</p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">Discover More</a>
+                    <a href="#contact" class="btn btn-secondary">Partner With Us</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Our Story</span>
+                <h2 class="section-title">Where Excellence Meets Passion</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="lead">We are dedicated to connecting exceptional jewelry pieces with those who appreciate true craftsmanship and timeless beauty.</p>
+                    <p>Our curated collection represents the pinnacle of luxury jewelry design, sourced from master artisans and prestigious creators worldwide. Each piece tells a story of dedication, artistry, and uncompromising quality.</p>
+                    <p>Whether you're a collector seeking that perfect centerpiece or an artisan looking to showcase your work, we provide a platform where excellence meets opportunity.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Curated Pieces</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Authentic</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="grad1" x1="0%" y1="100%" x2="100%" y2="0%">
+                                    <stop offset="0%" style="stop-color:#8B9D83;stop-opacity:0.2" />
+                                    <stop offset="100%" style="stop-color:#C9A85C;stop-opacity:0.15" />
+                                </linearGradient>
+                            </defs>
+                            <rect width="400" height="500" fill="#F5F3EE"/>
+                            <!-- Sprouting vine motif -->
+                            <path d="M200,400 Q180,350 200,300 Q220,250 200,200 Q180,150 200,100"
+                                  fill="none" stroke="#8B9D83" stroke-width="2" opacity="0.6"/>
+                            <!-- Leaves -->
+                            <ellipse cx="180" cy="280" rx="15" ry="25" fill="#8B9D83" opacity="0.4" transform="rotate(-30 180 280)"/>
+                            <ellipse cx="220" cy="220" rx="15" ry="25" fill="#8B9D83" opacity="0.4" transform="rotate(30 220 220)"/>
+                            <ellipse cx="180" cy="160" rx="15" ry="25" fill="#8B9D83" opacity="0.4" transform="rotate(-30 180 160)"/>
+                            <!-- Flower/gem at top -->
+                            <circle cx="200" cy="100" r="25" fill="none" stroke="#C9A85C" stroke-width="2" opacity="0.5"/>
+                            <circle cx="200" cy="100" r="15" fill="#C9A85C" opacity="0.2"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header centered">
+                <span class="section-label">What We Offer</span>
+                <h2 class="section-title">Our Services</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="32" cy="32" r="28" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <path d="M32,10 L38,26 L54,26 L42,36 L46,52 L32,42 L18,52 L22,36 L10,26 L26,26 Z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Premium Collection</h3>
+                    <p class="service-description">Access to an exclusive selection of fine jewelry pieces, carefully curated for quality and artistry.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="16" y="20" width="32" height="30" rx="2" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <path d="M20,20 L20,16 Q20,12 24,12 L40,12 Q44,12 44,16 L44,20" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="32" cy="35" r="4" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">For Artisans & Sellers</h3>
+                    <p class="service-description">Partner with us to showcase your exceptional pieces to a discerning clientele. We value authentic craftsmanship.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32,12 L42,22 L42,52 L22,52 L22,22 Z" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <rect x="28" y="28" width="8" height="10" fill="currentColor"/>
+                            <circle cx="32" cy="20" r="3" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Corporate & Events</h3>
+                    <p class="service-description">Bespoke jewelry solutions for corporate gifts, special events, and exclusive occasions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header centered">
+                <span class="section-label">Our Collection</span>
+                <h2 class="section-title">Exquisite Pieces</h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="400" height="500" fill="#FAF9F6"/>
+                            <!-- Ring with organic flourish -->
+                            <circle cx="200" cy="250" r="80" fill="none" stroke="#8B9D83" stroke-width="2"/>
+                            <circle cx="200" cy="250" r="50" fill="none" stroke="#C9A85C" stroke-width="2"/>
+                            <circle cx="200" cy="180" r="20" fill="#C9A85C" opacity="0.3"/>
+                            <!-- Small leaves -->
+                            <path d="M200,180 Q210,170 220,175" fill="none" stroke="#8B9D83" stroke-width="1.5"/>
+                            <path d="M200,180 Q190,170 180,175" fill="none" stroke="#8B9D83" stroke-width="1.5"/>
+                        </svg>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4>Classic Rings</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="400" height="500" fill="#FAF9F6"/>
+                            <!-- Necklace with vine motif -->
+                            <path d="M100,150 Q200,200 300,150" fill="none" stroke="#8B9D83" stroke-width="2"/>
+                            <path d="M200,150 L200,270" fill="none" stroke="#8B9D83" stroke-width="2"/>
+                            <circle cx="200" cy="180" r="15" fill="#C9A85C" opacity="0.4"/>
+                            <circle cx="200" cy="270" r="25" fill="none" stroke="#C9A85C" stroke-width="2"/>
+                            <circle cx="200" cy="270" r="15" fill="#C9A85C" opacity="0.3"/>
+                            <!-- Small leaf details -->
+                            <ellipse cx="185" cy="220" rx="8" ry="12" fill="#8B9D83" opacity="0.3" transform="rotate(-20 185 220)"/>
+                            <ellipse cx="215" cy="220" rx="8" ry="12" fill="#8B9D83" opacity="0.3" transform="rotate(20 215 220)"/>
+                        </svg>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4>Statement Necklaces</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="400" height="500" fill="#FAF9F6"/>
+                            <!-- Earrings with organic drop shape -->
+                            <circle cx="200" cy="200" r="15" fill="none" stroke="#C9A85C" stroke-width="2"/>
+                            <path d="M200,215 Q185,250 200,280 Q215,250 200,215" fill="#8B9D83" opacity="0.3"/>
+                            <circle cx="200" cy="280" r="8" fill="#C9A85C" opacity="0.5"/>
+                            <!-- Second earring (mirrored) -->
+                            <circle cx="200" cy="330" r="15" fill="none" stroke="#C9A85C" stroke-width="2"/>
+                            <path d="M200,345 Q185,380 200,410 Q215,380 200,345" fill="#8B9D83" opacity="0.3"/>
+                            <circle cx="200" cy="410" r="8" fill="#C9A85C" opacity="0.5"/>
+                        </svg>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4>Designer Earrings</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="400" height="500" fill="#FAF9F6"/>
+                            <!-- Bracelet with flowing vine -->
+                            <circle cx="200" cy="250" r="70" fill="none" stroke="#8B9D83" stroke-width="2"/>
+                            <circle cx="200" cy="250" r="55" fill="none" stroke="#C9A85C" stroke-width="1.5" stroke-dasharray="5,5"/>
+                            <!-- Decorative elements -->
+                            <circle cx="200" cy="180" r="10" fill="#C9A85C" opacity="0.4"/>
+                            <circle cx="270" cy="250" r="10" fill="#C9A85C" opacity="0.4"/>
+                            <circle cx="200" cy="320" r="10" fill="#C9A85C" opacity="0.4"/>
+                            <circle cx="130" cy="250" r="10" fill="#C9A85C" opacity="0.4"/>
+                            <!-- Small leaves between -->
+                            <ellipse cx="235" cy="210" rx="6" ry="10" fill="#8B9D83" opacity="0.3" transform="rotate(45 235 210)"/>
+                            <ellipse cx="165" cy="290" rx="6" ry="10" fill="#8B9D83" opacity="0.3" transform="rotate(-45 165 290)"/>
+                        </svg>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4>Luxury Bracelets</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="section-header">
+                        <span class="section-label">Get In Touch</span>
+                        <h2 class="section-title">Let's Connect</h2>
+                    </div>
+                    <p class="contact-text">Whether you're an artisan looking to partner with us, a client seeking that perfect piece, or simply wish to learn more about our collection, we'd love to hear from you.</p>
+
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="currentColor"/>
+                                </svg>
+                            </div>
+                            <div class="method-details">
+                                <h4>Email</h4>
+                                <a href="mailto:contact@example.com">contact@example.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" fill="currentColor"/>
+                                </svg>
+                            </div>
+                            <div class="method-details">
+                                <h4>Phone</h4>
+                                <a href="tel:+1234567890">+1 (234) 567-890</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="partnership-note">
+                        <h4>For Artisans & Sellers</h4>
+                        <p>Interested in showcasing your work? We're always looking for exceptional pieces from talented artisans. Reach out to discuss partnership opportunities.</p>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="interest" name="interest" required>
+                                <option value="">I'm interested in...</option>
+                                <option value="buying">Acquiring Pieces</option>
+                                <option value="selling">Selling/Partnership</option>
+                                <option value="corporate">Corporate Inquiries</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-icon">◆</span>
+                        <span class="logo-text">SPROUTÉ</span>
+                    </div>
+                    <p>Where elegance grows naturally</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#gallery">Collection</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Connect</h4>
+                        <ul>
+                            <li><a href="#" target="_blank">Instagram</a></li>
+                            <li><a href="#" target="_blank">Pinterest</a></li>
+                            <li><a href="#" target="_blank">LinkedIn</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Sprouté. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
